@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width= device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Trends to go on with different SEASONS!</title>
+	<style>
+	*{
+		box-sizing: border-box;
+		margin:0px;
+
+	}
+		body{
+			
+			background-color:pink;
+		   font-family:helvetica;
+
+			
+			
+		}
+		
+		h1{
+			text-align:center;
+			
+			margin-bottom: 15px;
+
+		}
+		h2{
+			
+		    border:2px solid black;
+		    background-color:red;
+		   position:absolute;
+		   	top: 0px;
+		   	right: 0px;  
+		   		    
+		    
+		}
+       
+       p{
+       	    padding:20px;
+			font-style:italic;
+			margin-left: auto;
+            margin-right:auto;
+            margin-bottom: auto;
+            margin-top: auto;
+		}
+	.row{
+		width:100%;
+		}
+		
+		/*for desktop view*/
+		
+		@media(min-width:992px)
+		{
+			.col-dv-1, .col-dv-2, .col-dv-3
+			{
+			float:left;
+
+				
+				
+			}
+			.col-dv-1{
+				width:33.33%;
+								
+			}
+			.col-dv-2{
+				width:66.66%;
+				
+				}
+				.col-dv-3
+				{
+				width:100%;
+				}
+
+		}
+		
+		/*tablet mode*/
+		@media(min-width: 768px) and (max-width: 991px)
+
+		{
+			.col-tm-1, .col-tm-2
+			
+			{
+				margin-bottom: auto;
+				padding: 10px;
+			 float:left;
+			 
+			}
+			.col-tm-1 {
+				width:50%;
+				
+			}
+		
+		}
+		.col-tm-2{
+			width: 100%;
+			
+		}
+		
+		
+		@media(max-width: 767px)
+		{
+			.col-mv-1{			
+				float:left;
+
+
+			}
+			.col-mv-1{
+				width: 100%;
+				
+			}
+			
+		}
+		div>div
+		{
+			padding:5px;
+			height:200px;
+			
+
+		}
+
+		#border
+		{
+			background-color: #FFDAB9
+			;
+			font-size: 10px;
+			border:1px solid black;
+			position:relative;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Trends to go with different SEASONS!</h1>
+	<div class="row">
+		
+		<div class="col-dv-1 col-tm-1 col-mv-1">
+			<div id="border">
+			<h2>SummerTrend</h2>
+			<p>
+				Oh It's!You worrying what to wear today? Then take the load off and you are good,because a list below will today going to save you GIRLSS!
+				<ul>
+					<li>Get a cotton dress with a pair of funky flip flops, and add some cool accessories like scarf, neckpiece, hoops.</li>
+					<li>Joggers or Cargo Pants with a graphic or plain Tshirt along with a pair of shoes </li>
+				</ul>
+			</p>
+		</div>
+	</div>
+		
+		
+
+		<div class="col-dv-1 col-tm-1 col-mv-1">
+			<div id="border">
+			<h2>Monsoon Trend</h2>
+			<p>Here comes the monsoon!You worries what might we possibly wear this season, here is  list below:
+				<ul>
+					<li>Go with shorts and a nice Tshirt would definitely work. You can also take the umbrella according to the outfit.</li>
+
+				</ul></p>
+			</div>
+		</div>
+		
+		<div class="col-dv-1 col-tm-1 col-mv-1 ">
+			<div id="border">
+				
+							<h2>Winter Trend</h2>
+			<p>This is my personal favorite season, So there is a lot to suggest but we will go with just two.
+				<ul>
+					<li>A pair of ripped jeans along with a jumper might be a great combo,BELIEVE ME!!</li>
+					<li>A high waisted Jeans along with a crop hoodie and take your favourite sneakers with it.</li>
+				</ul></p>
+			</div>			 
+            </div> 
+        </div>
+</body>
+</html>
